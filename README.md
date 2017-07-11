@@ -230,7 +230,7 @@ plt.plot(data_frame.groupby(["%w"]).median()['n_likes'])
 
 
 
-![png](output_7_1.png)
+![png](images/output_7_1.png)
 
 
 ## Grouping by the hour
@@ -250,7 +250,7 @@ plt.plot(data_frame.groupby(["%H"]).median()['n_likes'])
 
 
 
-![png](output_9_1.png)
+![png](images/output_9_1.png)
 
 
 ## Number of likes heatmap
@@ -277,7 +277,7 @@ sns.heatmap(plot_df,ax=ax)
 
 
 
-![png](output_11_1.png)
+![png](images/output_11_1.png)
 
 
 
@@ -319,7 +319,7 @@ make_wordcloud(" ".join(positive_outliers['caption']))
 ```
 
 
-![png](output_12_0.png)
+![png](images/output_12_0.png)
 
 
 # Machine Learning
@@ -401,7 +401,7 @@ pl.scatter(y_test,random_forest.predict(X_test))
 
 
 
-![png](output_19_1.png)
+![png](images/output_19_1.png)
 
 
 ...not even close, but not too far.
